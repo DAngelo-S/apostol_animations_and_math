@@ -1,5 +1,7 @@
 # apostol_animations_and_math
-Resolve Apostol exercises and animate mathematical concepts with the goal to improve concepts appresentations and create comprehensible solutions for exercises proposed at Apostol's Calculus book. 
+Resolve Apostol exercises and animate mathematical concepts with the goal to improve concepts appresentations and create comprehensible solutions for exercises proposed at Apostol's Calculus book (in english).
+
+Also solving exercises from Calculus 2 and Calculus 1 reinforcement from IMPA (in portuguese, except excerpts from Apostol).
 
 ## Environment Setup
 
