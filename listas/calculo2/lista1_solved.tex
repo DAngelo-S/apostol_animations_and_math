@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\begin{document}
+\title{Lista de Exercícios 1 - Cálculo 2}
+\author{Débora D'Angelo Reina de Araujo}
+\date{\today}
+
+\maketitle
+
+Compute the derivatives $F'(t)$ and $F''(t)$ for each of the vector-valued functions in Exercises 1 through 6.
+
+\begin{enumerate}
+    \item Resolver exercícios do 1 ao 11 do Apostol manualmente e usando CAS.
+        \begin{enumerate}[label=1.\arabic*.]
+            \item $F(t) = (t, t^2, t^3, t^4)$ \\
+            $F'(t) = (1, 2t, 3t^2, 4t^3)$ \\
+            $F''(t) = (0, 2, 6t, 12t^2)$ \
+            \item $F(t) = (cos(t), sin^2(t), sin 2t, tan t)$ \
+            \item $F(t) = (arcsin t, arccos t)$ \
+            \item $F(t) = 2e^t\textbf{i} + 3e^t\textbf{j}$ \
+            \item $F(t) = cos(h) t \textbf{i} + sin(h) 2t \textbf{j} + e^{-3t}\textbf{k}$ \
+            \item $F(t) = log(1+t^2)\textbf{i} + arctan(t) \textbf{j} + \frac{1}{1+t^2}\textbf{k}$ \
+            \item Let F be the vector-valued function given by \\
+                $$F(t) = \frac{2t}{1+t^2}\textbf{i} + \frac{1-t^2}{1+t^2}\textbf{j} + \textbf{k}$$. \
+                Prove that the angle between $F(t)$ and $F'(t)$ is constant, that is, independent of t. \\
+                \\
+            Compute the vector-valued integrals in Exercises 8 through 11. \
+            \item $\int_{0}^{1} (t, \sqrt(t), e^t)dt$ \
+            \item $\int_{0}^{\frac{\pi}{4}} (sin(t), cos(t), tan(t))dt$ \
+            \item $\int_{0}^{1} (\frac{e^t}{1+e^t}\textbf{i} + \frac{1}{1+e^t}\textbf{j})dt$ \
+            \item $\int_{0}^{1} (te^t\textbf{i} + t^2e^t\textbf{j} + te^{-t}k)dt$
+        \end{enumerate}
+    \item Encontrar uma curva parametrizada $\alpha(t) : t \in I \to \mathbb{R}^2$; cujo traço seja o círculo $x^2 + y^2 = 1$; de maneira que t percorra o círculo no sentido anti-horário e tenhamos $\alpha(0) = (0, 1)$. Faça o desenho em um sistema CAS, incluindo a animação do vetor tangente percorrendo a curva. \
+    \item A limaçon (ou caracol de Pascal) é a curva parametrizada \
+        $$\gamma(t) = ((1+2cos(t)) \cdot cos(t); (1+2cos(t)) \cdot sin(t)); t \in \mathbb{R}$$ \
+        Faça o desenho desta urva em um sistema CAS. Observe que o ponto (0, 0) pertence ao traço da curva, e ache o vetor tangente nesse ponto. \
+    \item A \textit{Cissoide de Diocles} é a curva definida implicitamente pela equação \
+        $$x^3+xy^2-2ay^2=0$$ \
+        Encontre uma parametrização para esta curva. Faça o desenho em um sistema CAS, incluindo a animação do vetor tangente percorrendo a curva. Busque informação para entender qual o fenomeno modelado por esta curva que a tornou famosa. (Dica: use $y = xt$ para encontrar uma aprametrização da curva.) \
+    \item o \textit{Folium de Descartes} é definido implicitamente pela equação \
+        $$x^3+y^3 = 3xy$$ \
+        Encontre uma parametrização para esta curva. Faça o desenho em um sistema CAS, incluindo a animação do vetor tangente percorrendo a curva. A descrição implicita desta curva da origem a uma familia de curvas da forma \
+        $$F_{\epsilon}(x, y) = x^3 + y^3 - 3xy - \epsilon$$ \
+    \item Desenhe as seguintes parametrizações da parábola $\alpha(t) = (t,t^2)$ e $\gamma(t) = (t^3,t^6)$ em ambiente computacional, utilizando sistemas de computação simbólica. Inclua a animação do vetor tangente percorrendo a curva. Mostre que $\alpha$ é curva regular e $\gamma$ não é regular. Qual seria a função naturalmente candidata a ser uma reparametrização entre as duas parametrizações? Porque falha? \
+    \item Escolha uma curva "famosa" de sua preferência, desenhe uma animação da curva e seus vetores tangentes para uma dada parametrização e discuta a conveniência de uma nova parametrização ao avaliar a maneira como a trajetória está sendo percorrida. Referência na web de curvas famosas: \href{https://mathshistory.st-andrews.ac.uk/
+    Curves/}{\textbf{https://mathshistory.st-andrews.ac.uk/
+    Curves/}} /
+    \item Obtenha uma curva regular $\alpha : \mathbb{R} \to \mathbb{R}^2$ tal que $\alpha(0) = (2, 0)$ e $\alpha'(t) = (t^2, e^t)$. \
+    \item (\textbf{Importante!}) Seja $\alpha : I \to \mathbb{R}^2$ uma curva regular. Prove que $||\alpha'(t)||$ é constante se, e somente se, para cada $t \in I$, o vetor $\alpha''(t)$ é ortogonal a $\alpha'(t)$. \
+    \item Considere a espiral logaritmica $\gamma : \mathbb{R} \to \mathbb{R}^2$ definida por $\gamma(t) = (e^t \cdot cos(t), e^t \cdot sin(t))$. Desenhe a curva em ambiente computacional e mostre o ângulo entre $\gamma(t)$ e o vetor tangente em $\gamma(t)$ não depende de t. \ 
+\end{enumerate}
+
+\end{document}
