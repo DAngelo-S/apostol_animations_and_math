@@ -1,9 +1,8 @@
 venv
 .ipynb_checkpoints
-*/.ipynb_checkpoints
-*/*/.ipynb_checkpoints
 .vscode
 *.aux
 *.log
 *.out
 *.synctex.gz
+.DS_Store
